@@ -2,11 +2,11 @@
 include 'config.php';
 
 if(isset($_POST['submit']))
-{ //I THINK THIS SUBMIT IS THE SUBMIT OF THE CREATE USER BUTTON...BECAUSE NONE OTHER SUBMIT BUTTON IS THERE
-    //THIS IS THE INFORMATION 
-    $from = $_GET['id']; // I THINK THIS IS THE ID WE GOT FROM THE URL  HREF WHEN WE CLICKED THE 'TRANSACT BUTTON ON THE selectedUserDetail PAGE and that is why it is 'GET' and nor 'POST'.
-    $to = $_POST['to']; //THIS 'to' IS THE NAME OF THE 'TRANSFER' BUTTON 
-    $amount = $_POST['amount']; //SAME FOR AMOUNT
+{
+    
+    $from = $_GET['id']; 
+    $to = $_POST['to'];
+    $amount = $_POST['amount']; 
 
 // FETCHING INFORMATION OF THE USER WHO IS SENDING THE MONEY
     $sql = "SELECT * from users where id=$from";
