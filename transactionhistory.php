@@ -14,7 +14,7 @@
 <?php
   include 'navbar.php';
 ?>
-<!-- //WE ARE JUST FETCHING THE DATA FROM THE 'TRANSACTION TABLE' -->
+<!-- // FETCHING THE DATA FROM THE 'TRANSACTION TABLE' -->
 	<div class="container">
         <h2 class="text-center pt-4" style="color : black;">Transaction History</h2>
         
